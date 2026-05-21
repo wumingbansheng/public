@@ -1,7 +1,3 @@
-# list_diff.py
-# -*- coding: utf-8 -*-
-
-
 def diff_two_lists(list1, list2):
     """
     对比两个列表，返回两个列表：
@@ -31,7 +27,7 @@ def diff_two_lists(list1, list2):
 
     return only_in_list1, only_in_list2
 
-
+//测试
 def main():
     list1 = ["A-1", "A-2", "A-3", "A-4"]
     list2 = ["A-2", "A-4", "A-5", "A-6"]
